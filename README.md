@@ -48,7 +48,7 @@ TEST ACCURACY (unseen reviews):
 - 72.3% <== BoW GaussianNB Classifier
 - 85.8% <== GradientBoostingDecisionTree
 - 87.3% <== RNN (simple RNN with embedding 32, LSTM dim 100 and dense output layer - 213k param)
-- 87.3% <== Bi-directional LSTM
+- 87.8% <== Bi-directional LSTM (embedding of 64, 2 x bi-LSTM dim 32 and dense output layer - 370k parameters )
 
 ![](asset/basic.jpg) 
 
