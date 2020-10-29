@@ -1,6 +1,8 @@
 # Sentiment-Analysis-using-various-classifiers
 Experiment sentiment analysis using regular classifiers and deep neural networks then compare performance.
 
+![](asset/intro.jpg)             ![](asset/poswordcloud.jpg)
+
 # Description
 
 The project builds an end-to-end sentiment classification system from scratch. It is part of Udacity [Natural Language Processing Nanodegree](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892).
@@ -46,6 +48,10 @@ TEST ACCURACY (unseen reviews):
 - 87.3% <== RNN (simple RNN with embedding 32, LSTM dim 100 and dense output layer - 213k param)
 - 87.3% <== Bi-directional LSTM
 
+![](asset/basic.jpg) 
+
 Although rudimentary, the RNN outperforms both regular classifiers. It is well above Naive Bayes classifier, and a few pct points above Gradient Boosted Tree. These two regular classifiers use BoW vectors not taking into account the sequence of the words.
 
 The Bi-directional LSTM shows the highest accuracy. Like the simple RNN, it takes as input the sequence of words, allowing to capture more of the context vs regular classifiers. In addition, it is able to get information from past (backwards) and future (forward) states simultaneously (unlike a simple unidirectional LSTM which only leverages information of the past because the only inputs it has seen so far are from the past). The Bi-directional LSTM can see the past and future context of the word (influence of neighboring words go both ways) and is much better suited to capture more complex contextual information.
+
+![](asset/best.jpg) 
