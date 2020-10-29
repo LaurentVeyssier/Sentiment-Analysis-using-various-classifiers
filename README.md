@@ -1,12 +1,14 @@
 # Sentiment-Analysis-using-various-classifiers
 Experiment sentiment analysis using regular classifiers and deep neural networks then compare performance.
 
-![](asset/intro.jpg)             ![](asset/poswordcloud.jpg)
+                         ![](asset/poscloudword.jpg)
 
 # Description
 
 The project builds an end-to-end sentiment classification system from scratch. It is part of Udacity [Natural Language Processing Nanodegree](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892).
 The objective is to train a model able to predict the sentiment of the movie review as either positive or negative.
+
+![](asset/intro.jpg) 
 
 # Dataset
 
