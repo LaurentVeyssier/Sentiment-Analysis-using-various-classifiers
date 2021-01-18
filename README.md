@@ -62,3 +62,7 @@ Although rudimentary, the RNN outperforms both regular classifiers. It is well a
 The Bi-directional LSTM shows the highest accuracy after 2 epochs only. Like the simple RNN, it takes as input the sequence of words, allowing to capture more of the context vs regular classifiers. In addition, it is able to get information from past (backwards) and future (forward) states simultaneously (unlike a simple unidirectional LSTM which only leverages information of the past because the only inputs it has seen so far are from the past). The Bi-directional LSTM can see the past and future context of the word (influence of neighboring words go both ways) and is much better suited to capture more complex contextual information.
 
 ![](asset/best.jpg) 
+
+
+ADDITION:
+- added sentiment analysis on amazon product reviews (naive bayes, logistic regression models)
